@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cozy Bean Café • Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f1e3;
+      color: #3c2f2f;
+      margin: 0;
+      padding: 20px;
+    }
+    .menu {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .header {
+      background: linear-gradient(135deg, #6b4e31, #c19a6b);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .header h1 { margin: 0; font-size: 2.8em; }
+    .header p { margin: 10px 0 0; font-size: 1.2em; }
+
+    .section { padding: 30px; }
+    h2 {
+      color: #6b4e31;
+      border-bottom: 3px solid #c19a6b;
+      padding-bottom: 10px;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin: 18px 0;
+      padding: 12px;
+      border-radius: 12px;
+      background: #f9f5eb;
+    }
+    .item img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .item-info {
+      flex: 1;
+    }
+    .item-name {
+      font-weight: bold;
+      font-size: 1.15em;
+      margin: 0 0 5px 0;
+    }
+    .item-desc {
+      color: #555;
+      margin: 0;
+      font-size: 0.95em;
+    }
+    .price {
+      font-weight: bold;
+      color: #6b4e31;
+      font-size: 1.25em;
+      min-width: 80px;
+      text-align: right;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 25px;
+      background: #f8f1e3;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu">
+    <div class="header">
+      <h1>☕ Cozy Bean Café</h1>
+      <p>Freshly Brewed • Delicious Bites • Ismailia</p>
+    </div>
+
+    <!-- Hot Drinks -->
+    <div class="section">
+      <h2>☕ Hot Drinks</h2>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\Espresso.jpg" alt="Espresso">
+        <div class="item-info">
+          <p class="item-name">Espresso</p>
+          <p class="item-desc">Rich double shot</p>
+        </div>
+        <div class="price">45 EGP</div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\download (1).jpg" alt="Cappuccino">
+        <div class="item-info">
+          <p class="item-name">Cappuccino</p>
+          <p class="item-desc">Espresso with thick foam</p>
+        </div>
+        <div class="price">55 EGP</div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\download (2).jpg" alt="Caramel Latte">
+        <div class="item-info">
+          <p class="item-name">Caramel Latte</p>
+          <p class="item-desc">Sweet caramel drizzle</p>
+        </div>
+        <div class="price">60 EGP</div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\Instant Chocolate Coffee Recipe.jpg" alt="Hot Chocolate">
+        <div class="item-info">
+          <p class="item-name">Hot Chocolate</p>
+          <p class="item-desc">Belgian chocolate + cream</p>
+        </div>
+        <div class="price">55 EGP</div>
+      </div>
+    </div>
+
+    <!-- Cold Drinks -->
+    <div class="section">
+      <h2>❄️ Cold Drinks</h2>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\Nespresso Iced Vanilla Oat Milk Latte - Tea in January.jpg" alt="Iced Latte">
+        <div class="item-info">
+          <p class="item-name">Iced Latte</p>
+          <p class="item-desc">Smooth & refreshing</p>
+        </div>
+        <div class="price">58 EGP</div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\Spiced Vanilla Cold Brew Concentrate.jpg" alt="Cold Brew">
+        <div class="item-info">
+          <p class="item-name">Cold Brew</p>
+          <p class="item-desc">12-hour smooth brew</p>
+        </div>
+        <div class="price">55 EGP</div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\Caramel Frappe Recipe — Creamy Iced Coffee Made in 5 Minutes.jpg" alt="Frappuccino">
+        <div class="item-info">
+          <p class="item-name">Caramel Frappuccino</p>
+          <p class="item-desc">Blended with ice</p>
+        </div>
+        <div class="price">70 EGP</div>
+      </div>
+    </div>
+
+    <!-- Snacks -->
+    <div class="section">
+      <h2>🥐 Snacks & Pastries</h2>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\download (3).jpg" alt="Croissant">
+        <div class="item-info">
+          <p class="item-name">Butter Croissant</p>
+          <p class="item-desc">Freshly baked, flaky</p>
+        </div>
+        <div class="price">35 EGP</div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\High Protein Low Carb Blueberry Muffins (Vegan, Easy Recipe).jpg" alt="Muffin">
+        <div class="item-info">
+          <p class="item-name">Blueberry Muffin</p>
+          <p class="item-desc">Soft & fruity</p>
+        </div>
+        <div class="price">45 EGP</div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\The Ultimate Grilled Chicken Club Sandwich Recipe.jpg" alt="Sandwich">
+        <div class="item-info">
+          <p class="item-name">Chicken Club Sandwich</p>
+          <p class="item-desc">Toasted with fries</p>
+        </div>
+        <div class="price">85 EGP</div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\The Best Chocolate Chip Cookies Youll Ever Bake (1).jpg" alt="Cookie">
+        <div class="item-info">
+          <p class="item-name">Chocolate Chip Cookie</p>
+          <p class="item-desc">Warm & gooey</p>
+        </div>
+        <div class="price">30 EGP</div>
+      </div>
+      <div class="item">
+        <img src="C:\Users\Shimaa Saied\Downloads\Cheesecake Factory Cheesecake - TremBom.jpg" alt="Cheesecake">
+        <div class="item-info">
+          <p class="item-name">Classic Cheesecake</p>
+          <p class="item-desc">Slice with strawberry sauce</p>
+        </div>
+        <div class="price">65 EGP</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p><strong>All prices in Egyptian Pounds (EGP)</strong></p>
+      <p>Thank you for choosing Cozy Bean Café ❤️</p>
+    </div>
+  </div>
+<div class="contact" style="margin-top: 12px; font-size: 1.1em;">
+  📞 <a href="tel:+20101234567" style="color: rgb(31, 1, 1); text-decoration: none;">010 1234 567</a> 
+  &nbsp; | &nbsp;
+  💬 <a href="https://wa.me/20101234567" target="_blank" style="color: rgb(31, 1, 1); text-decoration: none;">WhatsApp: 010 1234 567</a>
+</div>
+<!-- Social Media Links -->
+<div class="social" style="margin-top: 15px;">
+  <a href="https://instagram.com/yourcafe" target="_blank" style="color: rgb(31, 1, 1); margin: 0 8px; font-size: 1.4em; text-decoration: none;">📷</a>
+  <a href="https://facebook.com/yourcafe" target="_blank" style="color: rgb(31, 1,1 ); margin: 0 8px; font-size: 1.4em; text-decoration: none;">📘</a>
+  <a href="https://tiktok.com/@yourcafe" target="_blank" style="color: rgb(31, 1, 1); margin: 0 8px; font-size: 1.4em; text-decoration: none;">🎵</a>
+</div>
+</body>
+</html>
